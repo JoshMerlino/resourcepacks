@@ -1,0 +1,39 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Zip
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+  workflow_dispatch:
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install dependancies
+        run: sudo apt install zip
+
+      - name: Zip
+        run: for i in */; do zip -r "${i%/}.zip" "$i"; done
+        
+      - name: Configure git user
+        run: |
+          hub config --global user.name "github-actions[bot]"
+          hub config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+      - name: Push
+        run: |
+          hub init -b downloads
+          hub add *.zip
+          hub commit -m "Zip resourcepacks [Github actions]"
+          echo hub remote add output https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
+          hub remote add output https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
+          hub push -fu output downloads
+          
+      
