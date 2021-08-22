@@ -7,7 +7,6 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
-
   workflow_dispatch:
   
 jobs:
@@ -32,7 +31,6 @@ jobs:
           hub init -b downloads
           hub add *.zip
           hub commit -m "Zip resourcepacks [Github actions]"
-          echo hub remote add output https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
           hub remote add output https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
           hub push -fu output downloads
           
