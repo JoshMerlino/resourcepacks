@@ -27,6 +27,7 @@ jobs:
           
       - name: Push
         run: |
+          rm -rf .git
           hub init -b downloads
           hub add *.zip
           hub commit -m "Zip resourcepacks [Github actions]"
