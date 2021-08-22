@@ -2,7 +2,7 @@
 All my Minecraft Resource Packs
 
 
-* [Better Entities](https://github.com/JoshMerlino/resourcepacks/tree/master/Better%20Entities) • *[Direct Download](https://github.com/JoshMerlino/resourcepacks/blob/downloads/Better%20Entities.zip?raw=true)*
+* [Better Entities](https://github.com/JoshMerlino/resourcepacks/tree/master/Better%20Entities)
  
   > Adds more animations to many mobs & entitys.
   
