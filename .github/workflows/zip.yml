@@ -14,12 +14,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
-      - name: Install dependancies
-        run: sudo apt install zip
-
+      
       - name: Zip
-        run: for i in */; do zip -r "${i%/}.zip" "$i"; done
+        run: |
+          sudo apt install zip
+          for i in */; do zip -r "${i%/}.zip" "$i"; done
         
       - name: Configure git user
         run: |
