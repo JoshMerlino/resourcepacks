@@ -1,8 +1,13 @@
 # resourcepacks
 All my Minecraft Resource Packs
 
+* [A Little Axolotl](https://github.com/JoshMerlino/resourcepacks/tree/master/A%20Little%20Axolotl) • *[Direct Download](https://github.com/JoshMerlino/resourcepacks/blob/downloads/A%20Little%20Axolotl.zip?raw=true)*
+ 
+  > Upgrades the "Bucket of Axolotl" *not made by me!*
+  
+  ---
 
-* [Better Entities](https://github.com/JoshMerlino/resourcepacks/tree/master/Better%20Entities)
+* [Better Entities](https://github.com/JoshMerlino/resourcepacks/tree/master/Better%20Entities) • *[Direct Download](https://github.com/JoshMerlino/resourcepacks/blob/downloads/Better%20Entities.zip?raw=true)*
  
   > Adds more animations to many mobs & entitys.
   
