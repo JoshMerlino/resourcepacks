@@ -51,6 +51,6 @@ All my Minecraft Resource Packs
 
   ---
 
-* [Milky Way Galaxy](https://github.com/JoshMerlino/resourcepacks/tree/master/Milky%20Way%20Galaxy) • *[Direct Download](https://github.com/JoshMerlino/resourcepacks/blob/downloads/BMilky%20Way%20Galaxy.zip?raw=true)*
+* [Milky Way Galaxy](https://github.com/JoshMerlino/resourcepacks/tree/master/Milky%20Way%20Galaxy) • *[Direct Download](https://github.com/JoshMerlino/resourcepacks/blob/downloads/Milky%20Way%20Galaxy.zip?raw=true)*
 
   > Replaces the overworld sky with a more realistic galaxy.
